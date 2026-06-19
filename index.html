@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华体会 · 站点介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #faf7f2;
+            font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+            color: #2e2b27;
+            line-height: 1.75;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .page {
+            max-width: 780px;
+            width: 100%;
+            background: #fffcf8;
+            padding: 2.8rem 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04), 0 4px 8px rgba(0, 0, 0, 0.02);
+            transition: all 0.2s ease;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.2rem 0.8rem;
+            }
+            .page {
+                padding: 1.8rem 1.2rem;
+                border-radius: 12px;
+            }
+        }
+
+        .hero-tag {
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #b7a48e;
+            border-bottom: 1px solid #e8dfd4;
+            padding-bottom: 0.6rem;
+            margin-bottom: 1.8rem;
+            font-family: 'Arial', sans-serif;
+            font-weight: 400;
+        }
+
+        .opening {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #3f3832;
+            margin-bottom: 1.2rem;
+            line-height: 1.5;
+            border-left: 4px solid #d3c1ad;
+            padding-left: 1.2rem;
+        }
+
+        .opening strong {
+            font-weight: 600;
+            color: #5e4c3b;
+        }
+
+        p {
+            margin-bottom: 1.3rem;
+            font-size: 1.02rem;
+        }
+
+        .lead-in {
+            font-style: normal;
+            color: #4b423a;
+        }
+
+        .feature-list {
+            margin: 2rem 0 1.8rem 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .feature-list li {
+            position: relative;
+            padding: 0.6rem 0 0.6rem 2rem;
+            border-bottom: 1px dashed #ece3d9;
+            font-size: 1rem;
+        }
+
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+
+        .feature-list li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: #b7a48e;
+            font-weight: 300;
+        }
+
+        .highlight-box {
+            background: #f3ede6;
+            border-left: 5px solid #b7a48e;
+            padding: 1.3rem 1.6rem;
+            margin: 1.8rem 0 2rem 0;
+            border-radius: 0 12px 12px 0;
+            font-size: 0.98rem;
+            color: #3f3a35;
+            font-style: normal;
+        }
+
+        .highlight-box strong {
+            color: #4b3d32;
+            font-weight: 600;
+        }
+
+        a {
+            color: #6f5b48;
+            text-decoration: none;
+            border-bottom: 1px solid #dacfc4;
+            transition: border-color 0.2s, color 0.2s;
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: #3f2f22;
+            border-bottom-color: #6f5b48;
+        }
+
+        .subtle-close {
+            margin-top: 2.4rem;
+            padding-top: 1.6rem;
+            border-top: 1px solid #e8dfd4;
+            font-size: 0.95rem;
+            color: #6b625b;
+            line-height: 1.7;
+        }
+
+        .subtle-close span {
+            font-style: italic;
+            color: #8a7e73;
+        }
+
+        .faq-note {
+            display: inline-block;
+            background: #f8f3ec;
+            padding: 0.4rem 1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            color: #5f554b;
+            margin-top: 0.4rem;
+            border: 1px solid #e5dbd0;
+        }
+
+        .sig {
+            font-size: 0.85rem;
+            color: #9a8e81;
+            margin-top: 2rem;
+            text-align: right;
+            letter-spacing: 0.3px;
+        }
+
+        @media (max-width: 480px) {
+            .opening {
+                font-size: 1.2rem;
+                padding-left: 0.9rem;
+            }
+            .feature-list li {
+                padding-left: 1.5rem;
+                font-size: 0.96rem;
+            }
+            .highlight-box {
+                padding: 1rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="hero-tag">站点 · 索引</div>
+
+    <div class="opening">
+        一个持续维护的信息节点。<br>
+        关于 <strong>华体会</strong> 的定位与边界，在此简要说明。
+    </div>
+
+    <p class="lead-in">
+        互联网上的信息纷杂，对任何一个站点的了解都应基于可靠的介绍与适度的背景。  
+        <a href="https://hthzh.com.cn">华体会</a> 并非突然出现的孤立页面，它的存在对应着一套持续更新的内容逻辑与功能意图。  
+        从最初的框架搭建到后续的迭代，这个站点始终围绕着一组明确的主题展开，而非临时拼凑的入口。
+    </p>
+
+    <p>
+        站点结构以清晰的信息层级为原则，避免过度装饰或冗余导航。  
+        无论是内容分类还是交互路径，都经过审慎设计，让访问者能够直接触及核心信息，而不被无关元素干扰。  
+        这种克制本身也是一种专业性的体现。
+    </p>
+
+    <ul class="feature-list">
+        <li><strong>内容一致性</strong> —— 每篇文章或页面都遵循统一的表述风格与事实核查标准，不随意变更口径。</li>
+        <li><strong>功能透明度</strong> —— 站点的技术选型、数据使用范围、第三方集成均有明确说明，不隐藏关键细节。</li>
+        <li><strong>更新节奏稳定</strong> —— 不是一次性建站后搁置，而是按照既定周期补充与修订内容，保持活力。</li>
+        <li><strong>用户自主性</strong> —— 不设置强制跳转或干扰式弹窗，所有路径均可由访问者自由选择。</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>提示</strong> · 在了解任何站点之前，建议先浏览其基本信息页与内容归档，这比依赖搜索引擎的零散片段更为可靠。  
+        <span style="display: block; margin-top: 8px;">—— 本站亦遵循此原则，所有关键说明均可在站内直接获取。</span>
+    </div>
+
+    <p>
+        从场景来看，<a href="https://hthzh.com.cn">华体会</a> 适合三种典型使用情境：  
+        一是需要快速获取某领域系统化信息的研究型访问；二是对站点背景与可信度有要求的审慎型浏览；  
+        三是希望避开算法推荐、回归自主阅读的安静需求。三种情境并非互斥，而是互补。
+    </p>
+
+    <p>
+        如果你已经到达这里，说明你正在主动筛选信息源。  
+        这是一个值得肯定的习惯。接下来的内容，不妨从站点的“关于”页面开始，或者直接浏览最近更新的文章列表。  
+        路径清晰，无需猜测。
+    </p>
+
+    <div class="subtle-close">
+        <span>▸</span> 总结而言，<a href="https://hthzh.com.cn">华体会</a> 是一个以信息密度与结构清晰为特征的内容站点，不追逐热点，不堆砌承诺，只专注于将每一段叙述打磨到可被信任的程度。  
+        <div class="faq-note">常见疑问摘要 · 所有说明均可在站内对应页面找到详细版本</div>
+    </div>
+
+    <div class="sig">
+        — 页面生成于 2025 · 版本标识 494d21557d1fc4ef
+    </div>
+</div>
+</body>
+</html>

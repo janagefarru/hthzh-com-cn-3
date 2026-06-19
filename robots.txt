@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://janagefarru.github.io/hthzh-com-cn-3/sitemap.xml
